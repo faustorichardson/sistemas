@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRegistroNovedades" targetNamespace="http://tempuri.org/dsRegistroNovedades.xsd" xmlns:mstns="http://tempuri.org/dsRegistroNovedades.xsd" xmlns="http://tempuri.org/dsRegistroNovedades.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRegistroNovedades" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRegistroNovedades" msprop:Generator_UserDSName="dsRegistroNovedades">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRegistroNovedades" msprop:Generator_TableClassName="dtRegistroNovedadesDataTable" msprop:Generator_TableVarName="tabledtRegistroNovedades" msprop:Generator_RowChangedName="dtRegistroNovedadesRowChanged" msprop:Generator_TablePropName="dtRegistroNovedades" msprop:Generator_RowDeletingName="dtRegistroNovedadesRowDeleting" msprop:Generator_RowChangingName="dtRegistroNovedadesRowChanging" msprop:Generator_RowEvHandlerName="dtRegistroNovedadesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRegistroNovedadesRowDeleted" msprop:Generator_RowClassName="dtRegistroNovedadesRow" msprop:Generator_UserTableName="dtRegistroNovedades" msprop:Generator_RowEvArgName="dtRegistroNovedadesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="novedad_tipo" msprop:Generator_ColumnVarNameInTable="columnnovedad_tipo" msprop:Generator_ColumnPropNameInRow="novedad_tipo" msprop:Generator_ColumnPropNameInTable="novedad_tipoColumn" msprop:Generator_UserColumnName="novedad_tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="novedad_nota" msprop:Generator_ColumnVarNameInTable="columnnovedad_nota" msprop:Generator_ColumnPropNameInRow="novedad_nota" msprop:Generator_ColumnPropNameInTable="novedad_notaColumn" msprop:Generator_UserColumnName="novedad_nota" type="xs:string" minOccurs="0" />
+              <xs:element name="militar_cedula" msprop:Generator_ColumnVarNameInTable="columnmilitar_cedula" msprop:Generator_ColumnPropNameInRow="militar_cedula" msprop:Generator_ColumnPropNameInTable="militar_cedulaColumn" msprop:Generator_UserColumnName="militar_cedula" type="xs:string" minOccurs="0" />
+              <xs:element name="militar_nombre" msprop:Generator_ColumnVarNameInTable="columnmilitar_nombre" msprop:Generator_ColumnPropNameInRow="militar_nombre" msprop:Generator_ColumnPropNameInTable="militar_nombreColumn" msprop:Generator_UserColumnName="militar_nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="militar_apellido" msprop:Generator_ColumnVarNameInTable="columnmilitar_apellido" msprop:Generator_ColumnPropNameInRow="militar_apellido" msprop:Generator_ColumnPropNameInTable="militar_apellidoColumn" msprop:Generator_UserColumnName="militar_apellido" type="xs:string" minOccurs="0" />
+              <xs:element name="militar_rango" msprop:Generator_ColumnVarNameInTable="columnmilitar_rango" msprop:Generator_ColumnPropNameInRow="militar_rango" msprop:Generator_ColumnPropNameInTable="militar_rangoColumn" msprop:Generator_UserColumnName="militar_rango" type="xs:string" minOccurs="0" />
+              <xs:element name="novedad_cantidad" msprop:Generator_ColumnVarNameInTable="columnnovedad_cantidad" msprop:Generator_ColumnPropNameInRow="novedad_cantidad" msprop:Generator_ColumnPropNameInTable="novedad_cantidadColumn" msprop:Generator_UserColumnName="novedad_cantidad" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

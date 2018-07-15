@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMovimientoCombustible" targetNamespace="http://tempuri.org/dsMovimientoCombustible.xsd" xmlns:mstns="http://tempuri.org/dsMovimientoCombustible.xsd" xmlns="http://tempuri.org/dsMovimientoCombustible.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMovimientoCombustible" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsMovimientoCombustible" msprop:Generator_UserDSName="dsMovimientoCombustible">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtMovimientoCombustible" msprop:Generator_TableClassName="dtMovimientoCombustibleDataTable" msprop:Generator_TableVarName="tabledtMovimientoCombustible" msprop:Generator_TablePropName="dtMovimientoCombustible" msprop:Generator_RowDeletingName="dtMovimientoCombustibleRowDeleting" msprop:Generator_RowChangingName="dtMovimientoCombustibleRowChanging" msprop:Generator_RowEvHandlerName="dtMovimientoCombustibleRowChangeEventHandler" msprop:Generator_RowDeletedName="dtMovimientoCombustibleRowDeleted" msprop:Generator_UserTableName="dtMovimientoCombustible" msprop:Generator_RowChangedName="dtMovimientoCombustibleRowChanged" msprop:Generator_RowEvArgName="dtMovimientoCombustibleRowChangeEvent" msprop:Generator_RowClassName="dtMovimientoCombustibleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="unidadnaval" msprop:Generator_ColumnVarNameInTable="columnunidadnaval" msprop:Generator_ColumnPropNameInRow="unidadnaval" msprop:Generator_ColumnPropNameInTable="unidadnavalColumn" msprop:Generator_UserColumnName="unidadnaval" type="xs:string" minOccurs="0" />
+              <xs:element name="combustible" msprop:Generator_ColumnVarNameInTable="columncombustible" msprop:Generator_ColumnPropNameInRow="combustible" msprop:Generator_ColumnPropNameInTable="combustibleColumn" msprop:Generator_UserColumnName="combustible" type="xs:string" minOccurs="0" />
+              <xs:element name="capacidad" msprop:Generator_ColumnVarNameInTable="columncapacidad" msprop:Generator_ColumnPropNameInRow="capacidad" msprop:Generator_ColumnPropNameInTable="capacidadColumn" msprop:Generator_UserColumnName="capacidad" type="xs:string" minOccurs="0" />
+              <xs:element name="existencia" msprop:Generator_ColumnVarNameInTable="columnexistencia" msprop:Generator_ColumnPropNameInRow="existencia" msprop:Generator_ColumnPropNameInTable="existenciaColumn" msprop:Generator_UserColumnName="existencia" type="xs:string" minOccurs="0" />
+              <xs:element name="condicion" msprop:Generator_ColumnVarNameInTable="columncondicion" msprop:Generator_ColumnPropNameInRow="condicion" msprop:Generator_ColumnPropNameInTable="condicionColumn" msprop:Generator_UserColumnName="condicion" type="xs:string" minOccurs="0" />
+              <xs:element name="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" msprop:Generator_UserColumnName="cantidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="millasnavegadas" msprop:Generator_ColumnVarNameInTable="columnmillasnavegadas" msprop:Generator_ColumnPropNameInRow="millasnavegadas" msprop:Generator_ColumnPropNameInTable="millasnavegadasColumn" msprop:Generator_UserColumnName="millasnavegadas" type="xs:decimal" minOccurs="0" />
+              <xs:element name="medida" msprop:Generator_ColumnVarNameInTable="columnmedida" msprop:Generator_ColumnPropNameInRow="medida" msprop:Generator_ColumnPropNameInTable="medidaColumn" msprop:Generator_UserColumnName="medida" type="xs:string" minOccurs="0" />
+              <xs:element name="actividad" msprop:Generator_ColumnVarNameInTable="columnactividad" msprop:Generator_ColumnPropNameInRow="actividad" msprop:Generator_ColumnPropNameInTable="actividadColumn" msprop:Generator_UserColumnName="actividad" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

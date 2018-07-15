@@ -1,0 +1,15 @@
+C:\Users\daemon\Desktop\PROJECTS\SisGesVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\daemon\Desktop\PROJECTS\SisGesVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\daemon\Desktop\PROJECTS\SisGesVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\daemon\Desktop\PROJECTS\SisGesVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\daemon\Desktop\PROJECTS\SisGesVentas\CapaDatos\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\daemon\Desktop\PROJECTS\SisGesVentas\CapaDatos\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\daemon\Desktop\PROJECTS\SisGesVentas\CapaDatos\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\daemon\Desktop\SISTEMAS\SisGesVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\daemon\Desktop\SISTEMAS\SisGesVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\daemon\Desktop\SISTEMAS\SisGesVentas\CapaDatos\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\daemon\Desktop\SISTEMAS\SisGesVentas\CapaDatos\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\daemon\Desktop\SISTEMAS\SisGesVentas\CapaDatos\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\daemon\Desktop\SISTEMAS\SisGesVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\daemon\Desktop\SISTEMAS\SisGesVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\daemon\Desktop\SISTEMAS\SisGesVentas\CapaDatos\obj\Debug\CapaDatos.pdb

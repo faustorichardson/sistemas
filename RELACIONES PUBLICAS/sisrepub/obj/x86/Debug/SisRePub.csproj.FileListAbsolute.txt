@@ -1,0 +1,70 @@
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\bin\Debug\SisRePub.exe.config
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalPrintControlLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalReportsControllersLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalReportsDataDefModelLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalReportsObjectFactoryLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalReportsReportDefModelLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalReportViewerExportLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.CrystalReportViewerWebReportSourceLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.PAGEOBJECTMODELLib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\Interop.SAXSERIALIZELib.dll
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.csproj.ResolveComReference.cache
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\bin\Debug\SisRePub.exe
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\bin\Debug\SisRePub.pdb
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.csprojResolveAssemblyReference.cache
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmAgregarUsuario.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmAbout.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmBase.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmBuscarMilitar.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmBuscarUsuario.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmLogin.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmMenu.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmPrinter.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmResetPass.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmTipoActividad.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.Properties.Resources.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.csproj.GenerateResource.Cache
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.exe
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.pdb
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmRegistroActividades.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmPrintActividades.resources
+C:\Users\daemon\Desktop\PROJECTS\SisRePub\sisrepub\obj\x86\Debug\SisRePub.frmPrintEstadisticasActividades.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\bin\Debug\SisRePub.exe.config
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalPrintControlLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalReportsControllersLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalReportsDataDefModelLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalReportsObjectFactoryLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalReportsReportDefModelLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalReportViewerExportLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.CrystalReportViewerWebReportSourceLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.PAGEOBJECTMODELLib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\Interop.SAXSERIALIZELib.dll
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.csproj.ResolveComReference.cache
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.exe
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.pdb
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\bin\Debug\SisRePub.exe
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\bin\Debug\SisRePub.pdb
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.csprojResolveAssemblyReference.cache
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmAgregarUsuario.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmAbout.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmBase.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmBuscarMilitar.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmBuscarUsuario.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmLogin.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmMenu.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmPrintActividades.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmPrinter.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmPrintEstadisticasActividades.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmRegistroActividades.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmResetPass.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.frmTipoActividad.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.Properties.Resources.resources
+C:\Users\daemon\Desktop\PROJECTS\RELACIONES PUBLICAS\sisrepub\obj\x86\Debug\SisRePub.csproj.GenerateResource.Cache

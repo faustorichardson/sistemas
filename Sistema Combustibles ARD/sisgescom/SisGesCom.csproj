@@ -1,0 +1,1009 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B114193F-F7E6-42FB-81CA-A4B0556E081F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SisGesCom</RootNamespace>
+    <AssemblyName>SisGesCom</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Gas-Station.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Prompting, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Design">
+      <HintPath>..\..\..\..\..\Downloads\DotNet Libraries\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\..\..\..\Dropbox\proyectos\SisGEs\DotNetBar\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\MySQL\Connector.NET 6.9\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.Ribbon35">
+      <HintPath>..\..\..\..\..\Dropbox\proyectos\C# Styles\System.Windows.Forms.Ribbon35.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsEstaciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEstaciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSuplidores.cs">
+      <DependentUpon>dsSuplidores.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsSuplidores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSuplidores.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsUsuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarUsuario.Designer.cs">
+      <DependentUpon>frmAgregarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnularDespachoCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnularDespachoCombustible.Designer.cs">
+      <DependentUpon>frmAnularDespachoCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnularDespachoGas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnularDespachoGas.Designer.cs">
+      <DependentUpon>frmAnularDespachoGas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnularDespachoTicketsDepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnularDespachoTicketsDepto.Designer.cs">
+      <DependentUpon>frmAnularDespachoTicketsDepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnularEntradaCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnularEntradaCombustible.Designer.cs">
+      <DependentUpon>frmAnularEntradaCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsConexion.cs" />
+    <Compile Include="clsExceptionLog.cs" />
+    <Compile Include="clsProcesos.cs" />
+    <Compile Include="dsDeptoAutoriza.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDeptoAutoriza.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDeptoBeneficiario.cs">
+      <DependentUpon>dsDeptoBeneficiario.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsDeptoBeneficiario.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDeptoBeneficiario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsExistencia.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsExistencia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGas.cs">
+      <DependentUpon>dsGas.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsGas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMovimientoCombustible.cs">
+      <DependentUpon>dsMovimientoCombustible.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsMovimientoCombustible.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMovimientoCombustible.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSolicitudCombustible.cs">
+      <DependentUpon>dsSolicitudCombustible.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsSolicitudCombustible.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSolicitudCombustible.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTickets.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTickets.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTiposCombustibles.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTiposCombustibles.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnularSolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnularSolicitud.Designer.cs">
+      <DependentUpon>frmAnularSolicitud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase.Designer.cs">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBeneficiarioGas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBeneficiarioGas.Designer.cs">
+      <DependentUpon>frmBeneficiarioGas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBeneficiariosTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBeneficiariosTickets.Designer.cs">
+      <DependentUpon>frmBeneficiariosTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarMilitar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarMilitar.Designer.cs">
+      <DependentUpon>frmBuscarMilitar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarUsuario.Designer.cs">
+      <DependentUpon>frmBuscarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeptoAutoriza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeptoAutoriza.Designer.cs">
+      <DependentUpon>frmDeptoAutoriza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDespachoEmbarcacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDespachoEmbarcacion.Designer.cs">
+      <DependentUpon>frmDespachoEmbarcacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDespachoEstaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDespachoEstaciones.Designer.cs">
+      <DependentUpon>frmDespachoEstaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDespachoGas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDespachoGas.Designer.cs">
+      <DependentUpon>frmDespachoGas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDespachoTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDespachoTickets.Designer.cs">
+      <DependentUpon>frmDespachoTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDespachoTicketsDepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDespachoTicketsDepto.Designer.cs">
+      <DependentUpon>frmDespachoTicketsDepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstacionCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstacionCombustible.Designer.cs">
+      <DependentUpon>frmEstacionCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintDespachoCombUnidNaval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintDespachoCombUnidNaval.Designer.cs">
+      <DependentUpon>frmPrintDespachoCombUnidNaval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintDespachoCombustibleDetallado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintDespachoCombustibleDetallado.Designer.cs">
+      <DependentUpon>frmPrintDespachoCombustibleDetallado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDespachoCombustibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDespachoCombustibles.Designer.cs">
+      <DependentUpon>frmDespachoCombustibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEntradaCombustibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntradaCombustibles.Designer.cs">
+      <DependentUpon>frmEntradaCombustibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformaciones.Designer.cs">
+      <DependentUpon>frmInformaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintDespachoCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintDespachoCombustible.Designer.cs">
+      <DependentUpon>frmPrintDespachoCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintDespachoGas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintDespachoGas.Designer.cs">
+      <DependentUpon>frmPrintDespachoGas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintDespachoGasEst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintDespachoGasEst.Designer.cs">
+      <DependentUpon>frmPrintDespachoGasEst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintEntradaCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintEntradaCombustible.Designer.cs">
+      <DependentUpon>frmPrintEntradaCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrinter.Designer.cs">
+      <DependentUpon>frmPrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintListadoSolicitudCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintListadoSolicitudCombustible.Designer.cs">
+      <DependentUpon>frmPrintListadoSolicitudCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintResumenCombustibleSolicitado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintResumenCombustibleSolicitado.Designer.cs">
+      <DependentUpon>frmPrintResumenCombustibleSolicitado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintTicketsEntregados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintTicketsEntregados.Designer.cs">
+      <DependentUpon>frmPrintTicketsEntregados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintTicketsRecibidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintTicketsRecibidos.Designer.cs">
+      <DependentUpon>frmPrintTicketsRecibidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintTicketsResumenDespacho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintTicketsResumenDespacho.Designer.cs">
+      <DependentUpon>frmPrintTicketsResumenDespacho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistroTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistroTickets.Designer.cs">
+      <DependentUpon>frmRegistroTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResetPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResetPass.Designer.cs">
+      <DependentUpon>frmResetPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalidaCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalidaCombustible.Designer.cs">
+      <DependentUpon>frmSalidaCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSolicitudCombustibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSolicitudCombustibles.Designer.cs">
+      <DependentUpon>frmSolicitudCombustibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSuplidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuplidor.Designer.cs">
+      <DependentUpon>frmSuplidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicketsEntregadosDepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicketsEntregadosDepto.Designer.cs">
+      <DependentUpon>frmTicketsEntregadosDepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipoBeneficiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipoBeneficiario.Designer.cs">
+      <DependentUpon>frmTipoBeneficiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipoCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipoCombustible.Designer.cs">
+      <DependentUpon>frmTipoCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mdeg_combustibleDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mdeg_combustibleDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rptCertificacionEntradaCombustible.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCertificacionEntradaCombustible.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDespachoCombustibleDetallado.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDespachoCombustibleDetallado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDespachoCombustibleResumido.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDespachoCombustibleResumido.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDespachoCombustibleUnidadesNavales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDespachoCombustibleUnidadesNavales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDespachoGasDetallado.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDespachoGasDetallado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEntradaCombustible.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEntradaCombustible.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptEstaciones.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEstaciones.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptExistencia.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExistencia.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptListadoBeneficiariosTickets.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptListadoBeneficiariosTickets.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptListadoDeptoAutoriza.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptListadoDeptoAutoriza.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptListadoDeptoBeneficiario.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptListadoDeptoBeneficiario.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptListadoDeptoBeneficiariosGas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptListadoDeptoBeneficiariosGas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPrintListadoTicketsEntregados.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPrintListadoTicketsEntregados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPrintListadoTicketsRecibidos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPrintListadoTicketsRecibidos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptResumenCombustibleSolicitado.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptResumenCombustibleSolicitado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptResumenDespachoGas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptResumenDespachoGas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSolicitudCombustible.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSolicitudCombustible.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptListadoSolicitudCombustible.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptListadoSolicitudCombustible.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSolicitudDespachoGas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSolicitudDespachoGas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSuplidores.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSuplidores.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTicketsEntregadosPorDepto.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTicketsEntregadosPorDepto.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTicketsEntregadosResumen.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTicketsEntregadosResumen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptTiposCombustibles.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTiposCombustibles.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptUsuarios.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptUsuarios.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="frmAgregarUsuario.resx">
+      <DependentUpon>frmAgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnularDespachoCombustible.resx">
+      <DependentUpon>frmAnularDespachoCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnularDespachoGas.resx">
+      <DependentUpon>frmAnularDespachoGas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnularDespachoTicketsDepto.resx">
+      <DependentUpon>frmAnularDespachoTicketsDepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnularEntradaCombustible.resx">
+      <DependentUpon>frmAnularEntradaCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnularSolicitud.resx">
+      <DependentUpon>frmAnularSolicitud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase.resx">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBeneficiarioGas.resx">
+      <DependentUpon>frmBeneficiarioGas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBeneficiariosTickets.resx">
+      <DependentUpon>frmBeneficiariosTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarMilitar.resx">
+      <DependentUpon>frmBuscarMilitar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarUsuario.resx">
+      <DependentUpon>frmBuscarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeptoAutoriza.resx">
+      <DependentUpon>frmDeptoAutoriza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDespachoCombustibles.resx">
+      <DependentUpon>frmDespachoCombustibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDespachoEmbarcacion.resx">
+      <DependentUpon>frmDespachoEmbarcacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDespachoEstaciones.resx">
+      <DependentUpon>frmDespachoEstaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDespachoGas.resx">
+      <DependentUpon>frmDespachoGas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDespachoTickets.resx">
+      <DependentUpon>frmDespachoTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDespachoTicketsDepto.resx">
+      <DependentUpon>frmDespachoTicketsDepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEntradaCombustibles.resx">
+      <DependentUpon>frmEntradaCombustibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstacionCombustible.resx">
+      <DependentUpon>frmEstacionCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformaciones.resx">
+      <DependentUpon>frmInformaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintDespachoCombUnidNaval.resx">
+      <DependentUpon>frmPrintDespachoCombUnidNaval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintDespachoCombustible.resx">
+      <DependentUpon>frmPrintDespachoCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintDespachoCombustibleDetallado.resx">
+      <DependentUpon>frmPrintDespachoCombustibleDetallado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintDespachoGas.resx">
+      <DependentUpon>frmPrintDespachoGas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintDespachoGasEst.resx">
+      <DependentUpon>frmPrintDespachoGasEst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintEntradaCombustible.resx">
+      <DependentUpon>frmPrintEntradaCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrinter.resx">
+      <DependentUpon>frmPrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintListadoSolicitudCombustible.resx">
+      <DependentUpon>frmPrintListadoSolicitudCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintResumenCombustibleSolicitado.resx">
+      <DependentUpon>frmPrintResumenCombustibleSolicitado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintTicketsEntregados.resx">
+      <DependentUpon>frmPrintTicketsEntregados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintTicketsRecibidos.resx">
+      <DependentUpon>frmPrintTicketsRecibidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintTicketsResumenDespacho.resx">
+      <DependentUpon>frmPrintTicketsResumenDespacho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistroTickets.resx">
+      <DependentUpon>frmRegistroTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResetPass.resx">
+      <DependentUpon>frmResetPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalidaCombustible.resx">
+      <DependentUpon>frmSalidaCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSolicitudCombustibles.resx">
+      <DependentUpon>frmSolicitudCombustibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuplidor.resx">
+      <DependentUpon>frmSuplidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicketsEntregadosDepto.resx">
+      <DependentUpon>frmTicketsEntregadosDepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipoBeneficiario.resx">
+      <DependentUpon>frmTipoBeneficiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipoCombustible.resx">
+      <DependentUpon>frmTipoCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rptCertificacionEntradaCombustible.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCertificacionEntradaCombustible.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDespachoCombustibleDetallado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDespachoCombustibleDetallado.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDespachoCombustibleResumido.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDespachoCombustibleResumido.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDespachoCombustibleUnidadesNavales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDespachoCombustibleUnidadesNavales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDespachoGasDetallado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDespachoGasDetallado.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEntradaCombustible.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEntradaCombustible.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEstaciones.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEstaciones.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptExistencia.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExistencia.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptListadoBeneficiariosTickets.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptListadoBeneficiariosTickets.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptListadoDeptoAutoriza.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptListadoDeptoAutoriza.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptListadoDeptoBeneficiario.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptListadoDeptoBeneficiario.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptListadoDeptoBeneficiariosGas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptListadoDeptoBeneficiariosGas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPrintListadoTicketsEntregados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPrintListadoTicketsEntregados.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPrintListadoTicketsRecibidos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPrintListadoTicketsRecibidos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptResumenCombustibleSolicitado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenCombustibleSolicitado.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptResumenDespachoGas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenDespachoGas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSolicitudCombustible.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSolicitudCombustible.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptListadoSolicitudCombustible.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptListadoSolicitudCombustible.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSolicitudDespachoGas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSolicitudDespachoGas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSuplidores.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSuplidores.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTicketsEntregadosPorDepto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTicketsEntregadosPorDepto.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTicketsEntregadosResumen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTicketsEntregadosResumen.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTiposCombustibles.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTiposCombustibles.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptUsuarios.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptUsuarios.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDeptoAutoriza.xsc">
+      <DependentUpon>dsDeptoAutoriza.xsd</DependentUpon>
+    </None>
+    <None Include="dsDeptoAutoriza.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDeptoAutoriza.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsDeptoAutoriza.xss">
+      <DependentUpon>dsDeptoAutoriza.xsd</DependentUpon>
+    </None>
+    <None Include="dsDeptoBeneficiario.xsc">
+      <DependentUpon>dsDeptoBeneficiario.xsd</DependentUpon>
+    </None>
+    <None Include="dsDeptoBeneficiario.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDeptoBeneficiario.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsDeptoBeneficiario.xss">
+      <DependentUpon>dsDeptoBeneficiario.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstaciones.xsc">
+      <DependentUpon>dsEstaciones.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstaciones.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEstaciones.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsEstaciones.xss">
+      <DependentUpon>dsEstaciones.xsd</DependentUpon>
+    </None>
+    <None Include="dsExistencia.xsc">
+      <DependentUpon>dsExistencia.xsd</DependentUpon>
+    </None>
+    <None Include="dsExistencia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsExistencia.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsExistencia.xss">
+      <DependentUpon>dsExistencia.xsd</DependentUpon>
+    </None>
+    <None Include="dsGas.xsc">
+      <DependentUpon>dsGas.xsd</DependentUpon>
+    </None>
+    <None Include="dsGas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsGas.xss">
+      <DependentUpon>dsGas.xsd</DependentUpon>
+    </None>
+    <None Include="dsMovimientoCombustible.xsc">
+      <DependentUpon>dsMovimientoCombustible.xsd</DependentUpon>
+    </None>
+    <None Include="dsMovimientoCombustible.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMovimientoCombustible.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsMovimientoCombustible.xss">
+      <DependentUpon>dsMovimientoCombustible.xsd</DependentUpon>
+    </None>
+    <None Include="dsSolicitudCombustible.xsc">
+      <DependentUpon>dsSolicitudCombustible.xsd</DependentUpon>
+    </None>
+    <None Include="dsSolicitudCombustible.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSolicitudCombustible.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsSolicitudCombustible.xss">
+      <DependentUpon>dsSolicitudCombustible.xsd</DependentUpon>
+    </None>
+    <None Include="dsSuplidores.xsc">
+      <DependentUpon>dsSuplidores.xsd</DependentUpon>
+    </None>
+    <None Include="dsSuplidores.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSuplidores.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsSuplidores.xss">
+      <DependentUpon>dsSuplidores.xsd</DependentUpon>
+    </None>
+    <None Include="dsTickets.xsc">
+      <DependentUpon>dsTickets.xsd</DependentUpon>
+    </None>
+    <None Include="dsTickets.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTickets.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsTickets.xss">
+      <DependentUpon>dsTickets.xsd</DependentUpon>
+    </None>
+    <None Include="dsTiposCombustibles.xsc">
+      <DependentUpon>dsTiposCombustibles.xsd</DependentUpon>
+    </None>
+    <None Include="dsTiposCombustibles.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTiposCombustibles.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsTiposCombustibles.xss">
+      <DependentUpon>dsTiposCombustibles.xsd</DependentUpon>
+    </None>
+    <None Include="dsUsuarios.xsc">
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="dsUsuarios.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUsuarios.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsUsuarios.xss">
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="mdeg_combustibleDataSet.xsc">
+      <DependentUpon>mdeg_combustibleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="mdeg_combustibleDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mdeg_combustibleDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mdeg_combustibleDataSet.xss">
+      <DependentUpon>mdeg_combustibleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gas-Station.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

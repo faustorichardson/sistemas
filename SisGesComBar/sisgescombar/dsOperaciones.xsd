@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsOperaciones" targetNamespace="http://tempuri.org/dsOperaciones.xsd" xmlns:mstns="http://tempuri.org/dsOperaciones.xsd" xmlns="http://tempuri.org/dsOperaciones.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsOperaciones" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsOperaciones" msprop:Generator_UserDSName="dsOperaciones">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtOperaciones" msprop:Generator_TableClassName="dtOperacionesDataTable" msprop:Generator_TableVarName="tabledtOperaciones" msprop:Generator_RowChangedName="dtOperacionesRowChanged" msprop:Generator_TablePropName="dtOperaciones" msprop:Generator_RowDeletingName="dtOperacionesRowDeleting" msprop:Generator_RowChangingName="dtOperacionesRowChanging" msprop:Generator_RowEvHandlerName="dtOperacionesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtOperacionesRowDeleted" msprop:Generator_RowClassName="dtOperacionesRow" msprop:Generator_UserTableName="dtOperaciones" msprop:Generator_RowEvArgName="dtOperacionesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="embarcacion" msprop:Generator_ColumnVarNameInTable="columnembarcacion" msprop:Generator_ColumnPropNameInRow="embarcacion" msprop:Generator_ColumnPropNameInTable="embarcacionColumn" msprop:Generator_UserColumnName="embarcacion" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cmdte_rango" msprop:Generator_ColumnVarNameInTable="columncmdte_rango" msprop:Generator_ColumnPropNameInRow="cmdte_rango" msprop:Generator_ColumnPropNameInTable="cmdte_rangoColumn" msprop:Generator_UserColumnName="cmdte_rango" type="xs:string" minOccurs="0" />
+              <xs:element name="cmdte_nombre" msprop:Generator_ColumnVarNameInTable="columncmdte_nombre" msprop:Generator_ColumnPropNameInRow="cmdte_nombre" msprop:Generator_ColumnPropNameInTable="cmdte_nombreColumn" msprop:Generator_UserColumnName="cmdte_nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="cmdte_apellido" msprop:Generator_ColumnVarNameInTable="columncmdte_apellido" msprop:Generator_ColumnPropNameInRow="cmdte_apellido" msprop:Generator_ColumnPropNameInTable="cmdte_apellidoColumn" msprop:Generator_UserColumnName="cmdte_apellido" type="xs:string" minOccurs="0" />
+              <xs:element name="tipodroga" msprop:Generator_ColumnVarNameInTable="columntipodroga" msprop:Generator_ColumnPropNameInRow="tipodroga" msprop:Generator_ColumnPropNameInTable="tipodrogaColumn" msprop:Generator_UserColumnName="tipodroga" type="xs:string" minOccurs="0" />
+              <xs:element name="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" msprop:Generator_UserColumnName="cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="lugar" msprop:Generator_ColumnVarNameInTable="columnlugar" msprop:Generator_ColumnPropNameInRow="lugar" msprop:Generator_ColumnPropNameInTable="lugarColumn" msprop:Generator_UserColumnName="lugar" type="xs:string" minOccurs="0" />
+              <xs:element name="cmdte_rangoorden" msprop:Generator_ColumnVarNameInTable="columncmdte_rangoorden" msprop:Generator_ColumnPropNameInRow="cmdte_rangoorden" msprop:Generator_ColumnPropNameInTable="cmdte_rangoordenColumn" msprop:Generator_UserColumnName="cmdte_rangoorden" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCategorias" targetNamespace="http://tempuri.org/dsCategorias.xsd" xmlns:mstns="http://tempuri.org/dsCategorias.xsd" xmlns="http://tempuri.org/dsCategorias.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCategorias" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCategorias" msprop:Generator_UserDSName="dsCategorias">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCategorias" msprop:Generator_TableClassName="dtCategoriasDataTable" msprop:Generator_TableVarName="tabledtCategorias" msprop:Generator_TablePropName="dtCategorias" msprop:Generator_RowDeletingName="dtCategoriasRowDeleting" msprop:Generator_RowChangingName="dtCategoriasRowChanging" msprop:Generator_RowEvHandlerName="dtCategoriasRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCategoriasRowDeleted" msprop:Generator_UserTableName="dtCategorias" msprop:Generator_RowChangedName="dtCategoriasRowChanged" msprop:Generator_RowEvArgName="dtCategoriasRowChangeEvent" msprop:Generator_RowClassName="dtCategoriasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idcategorias" msprop:Generator_ColumnVarNameInTable="columnidcategorias" msprop:Generator_ColumnPropNameInRow="idcategorias" msprop:Generator_ColumnPropNameInTable="idcategoriasColumn" msprop:Generator_UserColumnName="idcategorias" type="xs:string" minOccurs="0" />
+              <xs:element name="categoria" msprop:Generator_ColumnVarNameInTable="columncategoria" msprop:Generator_ColumnPropNameInRow="categoria" msprop:Generator_ColumnPropNameInTable="categoriaColumn" msprop:Generator_UserColumnName="categoria" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

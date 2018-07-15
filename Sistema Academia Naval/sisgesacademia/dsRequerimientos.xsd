@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRequerimientos" targetNamespace="http://tempuri.org/dsRequerimientos.xsd" xmlns:mstns="http://tempuri.org/dsRequerimientos.xsd" xmlns="http://tempuri.org/dsRequerimientos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRequerimientos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRequerimientos" msprop:Generator_UserDSName="dsRequerimientos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRequerimientos" msprop:Generator_TableClassName="dtRequerimientosDataTable" msprop:Generator_TableVarName="tabledtRequerimientos" msprop:Generator_TablePropName="dtRequerimientos" msprop:Generator_RowDeletingName="dtRequerimientosRowDeleting" msprop:Generator_UserTableName="dtRequerimientos" msprop:Generator_RowChangingName="dtRequerimientosRowChanging" msprop:Generator_RowEvHandlerName="dtRequerimientosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRequerimientosRowDeleted" msprop:Generator_RowEvArgName="dtRequerimientosRowChangeEvent" msprop:Generator_RowChangedName="dtRequerimientosRowChanged" msprop:Generator_RowClassName="dtRequerimientosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="dependencia" msprop:Generator_ColumnVarNameInTable="columndependencia" msprop:Generator_ColumnPropNameInRow="dependencia" msprop:Generator_ColumnPropNameInTable="dependenciaColumn" msprop:Generator_UserColumnName="dependencia" type="xs:string" minOccurs="0" />
+              <xs:element name="requerimiento" msprop:Generator_ColumnVarNameInTable="columnrequerimiento" msprop:Generator_ColumnPropNameInRow="requerimiento" msprop:Generator_ColumnPropNameInTable="requerimientoColumn" msprop:Generator_UserColumnName="requerimiento" type="xs:string" minOccurs="0" />
+              <xs:element name="fecharegistro" msprop:Generator_ColumnVarNameInTable="columnfecharegistro" msprop:Generator_ColumnPropNameInRow="fecharegistro" msprop:Generator_ColumnPropNameInTable="fecharegistroColumn" msprop:Generator_UserColumnName="fecharegistro" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="fecharequerido" msprop:Generator_ColumnVarNameInTable="columnfecharequerido" msprop:Generator_ColumnPropNameInRow="fecharequerido" msprop:Generator_ColumnPropNameInTable="fecharequeridoColumn" msprop:Generator_UserColumnName="fecharequerido" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="monto" msprop:Generator_ColumnVarNameInTable="columnmonto" msprop:Generator_ColumnPropNameInRow="monto" msprop:Generator_ColumnPropNameInTable="montoColumn" msprop:Generator_UserColumnName="monto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="renglon" msprop:Generator_ColumnVarNameInTable="columnrenglon" msprop:Generator_ColumnPropNameInRow="renglon" msprop:Generator_ColumnPropNameInTable="renglonColumn" msprop:Generator_UserColumnName="renglon" type="xs:string" minOccurs="0" />
+              <xs:element name="itbi" msprop:Generator_ColumnVarNameInTable="columnitbi" msprop:Generator_ColumnPropNameInRow="itbi" msprop:Generator_ColumnPropNameInTable="itbiColumn" msprop:Generator_UserColumnName="itbi" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
